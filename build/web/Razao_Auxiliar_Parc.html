@@ -1,0 +1,85 @@
+<html>
+    <body style="font-family: Calibri; font-size:14px;">
+        <style type="text/css">
+            .divTable{
+                display: table;
+                width: 50%;
+                padding-top:1%;
+
+            }
+            .divTableRow {
+                display: table-row;
+            }
+            .divTableHeading {
+                background-color: #007D51;
+                display: table-header-group;
+            }
+            .divTableCell, .divTableHead {
+                border: 1px solid #999999;
+                display: table-cell;
+                padding: 3px 10px;
+            }
+            .divTableHeading {
+                background-color: #007D51;
+                display: table-header-group;
+                font-weight: bold;
+            }
+            .divTableFoot {
+                background-color: #007D51;
+                display: table-footer-group;
+                font-weight: bold;
+            }
+            .divTableBody {
+                display: table-row-group;
+            }
+
+            .divTableHead {
+                display: table-row-group;
+                font-weight:bold;
+                background: #00FA9A;
+                background: -moz-linear-gradient(top, #3CB371 0%, #23BE5A 66%, #3CB371 100%);
+                background: -webkit-linear-gradient(top, #3CB371 0%, #23BE5A 66%, #3CB371 100%);
+                background: linear-gradient(to bottom, #3CB371 0%, #23BE5A 66%, #3CB371 100%);
+            }
+
+            .divTableCellB {
+                display: table-cell;
+                border: 1px solid #999999;
+                font-weight:bold;
+                text-align:left;
+                width: 80px;
+                padding-left: 3px;
+                background: #D0E4F5;
+                background: -moz-linear-gradient(top, #dcebf7 0%, #d4e6f6 66%, #D0E4F5 100%);
+                background: -webkit-linear-gradient(top, #dcebf7 0%, #d4e6f6 66%, #D0E4F5 100%);
+                background: linear-gradient(to bottom, #dcebf7 0%, #d4e6f6 66%, #D0E4F5 100%);
+            }
+            .divTitle{
+                color:#000;
+                font-size: 14px;
+                margin: 0%;
+                padding: 0%;
+            }
+        </style>
+        <div align="center">
+            <div class="divTitle"><b>$EMPRESA</b></div>
+            <div class="divTitle">Periodo: <b>:P_DTINI</b> até <b>:p_DTFIN</b></div>
+            <div class="divTable">
+                <div class="divTableHead">
+                    <div class="divTableRow">
+                        <div class="divTableCell"><b>Conta Contabil</b></div>
+                        <div class="divTableCell"><b>Saldo Ant. Conta</b></div>
+                        <div class="divTableCell"><b>Saldo Final Conta</b></div>
+                    </div>
+                </div>
+                <div class="divTableBody">
+                    <div class="divTableRow">
+                        <div class="divTableCell"><b>$DESCRCTA</b></div>
+                        <div class="divTableCell"><b>R$ $SALDO_ANT</b></div>
+                        <div class="divTableCell"><b>R$ $SALDO_FIN</b></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+</body>
+</html>
